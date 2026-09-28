@@ -1,0 +1,5 @@
+[
+  {"order_id":"ORD-1001","customer_name":"Rahul","items":["Veg Burger","French Fries"],"total":280,"status":"Preparing","estimated_delivery":"30 minutes"},
+  {"order_id":"ORD-1005","customer_name":"Amit","items":["Chicken Biryani","Coke"],"total":350,"status":"Out for Delivery","estimated_delivery":"15 minutes"},
+  {"order_id":"ORD-1010","customer_name":"Priya","items":["Pizza","Garlic Bread"],"total":520,"status":"Delivered","estimated_delivery":null}
+]

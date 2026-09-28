@@ -1,0 +1,31 @@
+RESTAURANT FAQ AND POLICIES
+
+Restaurant Information
+Restaurant support is available for order, payment, delivery, refund, and technical issues.
+
+Operating Hours
+The restaurant accepts orders every day from 10:00 AM to 10:00 PM.
+
+Cancellation Policy
+Customers can request cancellation before the restaurant starts preparing the order.
+Once an order has entered the preparing stage, cancellation may not be possible.
+
+Refund Policy
+If an eligible cancelled order has already been charged, the refund will be processed according to the payment provider's refund process.
+Refund processing time may vary depending on the payment provider.
+
+Delivery Policy
+Estimated delivery time is provided with the order information.
+Actual delivery time may vary because of restaurant preparation time, traffic, weather, or other delivery conditions.
+
+Payment Issues
+If a customer was charged but the order failed or was not created successfully, a support ticket should be created for the payment issue.
+
+Order Support
+Customers should provide their order ID when asking about a specific order.
+The system must use the order tools to retrieve authoritative order information.
+The system must not invent order status, delivery time, customer information, or order details.
+
+Data Privacy
+The system must not provide information about unrelated customers or orders.
+Customers can receive information only about the order relevant to their request.

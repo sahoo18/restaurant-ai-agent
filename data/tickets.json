@@ -1,0 +1,98 @@
+[
+  {
+    "ticket_id": "TKT-20260928205928579",
+    "order_id": "ORD-1005",
+    "category": "Order",
+    "priority": "Medium",
+    "description": "Customer was charged for order ORD-1005 but the order failed. Need investigation into payment processing and order status.",
+    "created_at": "2026-09-28T20:59:28.579467"
+  },
+  {
+    "ticket_id": "TKT-20260928210908647",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Payment charged but transaction failed",
+    "created_at": "2026-09-28T21:09:08.647066"
+  },
+  {
+    "ticket_id": "TKT-20260928211154835",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer reports being charged for ORD-1005 but payment failed, requests support ticket.",
+    "created_at": "2026-09-28T21:11:54.835811"
+  },
+  {
+    "ticket_id": "TKT-20260928211827339",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer was charged but payment failed.",
+    "created_at": "2026-09-28T21:18:27.340034"
+  },
+  {
+    "ticket_id": "TKT-20260928212128743",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer was charged for order ORD-1005 but payment failed",
+    "created_at": "2026-09-28T21:21:28.743757"
+  },
+  {
+    "ticket_id": "TKT-20260928212320841",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer was charged for ORD-1005 but payment failed and requests a support ticket",
+    "created_at": "2026-09-28T21:23:20.841693"
+  },
+  {
+    "ticket_id": "TKT-20260928212504439",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer was charged for order ORD-1005 but payment failed, requesting a support ticket.",
+    "created_at": "2026-09-28T21:25:04.439730"
+  },
+  {
+    "ticket_id": "TKT-20260928221500561",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer was charged but payment failed.",
+    "created_at": "2026-09-28T22:15:00.561665"
+  },
+  {
+    "ticket_id": "TKT-20260928222659773",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer complaint regarding order ORD-1005: I was charged for ORD-1005 but my payment failed. Please create a support ticket.",
+    "created_at": "2026-09-28T22:26:59.773489"
+  },
+  {
+    "ticket_id": "TKT-20260928223602934",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer was charged but the payment failed.",
+    "created_at": "2026-09-28T22:36:02.934889"
+  },
+  {
+    "ticket_id": "TKT-20260928223908429",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer was charged but the payment failed.",
+    "created_at": "2026-09-28T22:39:08.429437"
+  },
+  {
+    "ticket_id": "TKT-20260928230313780",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Customer complaint regarding order ORD-1005: I was charged for ORD-1005 but my payment failed. Please create a support ticket.",
+    "created_at": "2026-09-28T23:03:13.780149"
+  }
+]

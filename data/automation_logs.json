@@ -1,0 +1,142 @@
+[
+  {
+    "timestamp": "2026-09-28T21:09:08.648682",
+    "result": {
+      "order_id": "ORD-1005",
+      "category": "Payment",
+      "priority": "High",
+      "sentiment": "Negative",
+      "description": "Payment charged but transaction failed",
+      "ticket": {
+        "ticket_id": "TKT-20260928210908647",
+        "order_id": "ORD-1005",
+        "category": "Payment",
+        "priority": "High",
+        "description": "Payment charged but transaction failed",
+        "created_at": "2026-09-28T21:09:08.647066"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-28T21:11:54.836964",
+    "result": {
+      "order_id": "ORD-1005",
+      "category": "Payment",
+      "priority": "High",
+      "sentiment": "Negative",
+      "description": "Customer reports being charged for ORD-1005 but payment failed, requests support ticket.",
+      "ticket": {
+        "ticket_id": "TKT-20260928211154835",
+        "order_id": "ORD-1005",
+        "category": "Payment",
+        "priority": "High",
+        "description": "Customer reports being charged for ORD-1005 but payment failed, requests support ticket.",
+        "created_at": "2026-09-28T21:11:54.835811"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-28T21:19:50.800470",
+    "result": {
+      "valid": false,
+      "error": "AI returned invalid JSON."
+    }
+  },
+  {
+    "timestamp": "2026-09-28T21:21:28.744963",
+    "result": {
+      "order_id": "ORD-1005",
+      "category": "Payment",
+      "priority": "High",
+      "sentiment": "Negative",
+      "description": "Customer was charged for order ORD-1005 but payment failed",
+      "ticket": {
+        "ticket_id": "TKT-20260928212128743",
+        "order_id": "ORD-1005",
+        "category": "Payment",
+        "priority": "High",
+        "description": "Customer was charged for order ORD-1005 but payment failed",
+        "created_at": "2026-09-28T21:21:28.743757"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-28T21:22:50.875461",
+    "result": {
+      "valid": false,
+      "error": "AI returned invalid JSON."
+    }
+  },
+  {
+    "timestamp": "2026-09-28T21:23:20.842917",
+    "result": {
+      "order_id": "ORD-1005",
+      "category": "Payment",
+      "priority": "High",
+      "sentiment": "Negative",
+      "description": "Customer was charged for ORD-1005 but payment failed and requests a support ticket",
+      "ticket": {
+        "ticket_id": "TKT-20260928212320841",
+        "order_id": "ORD-1005",
+        "category": "Payment",
+        "priority": "High",
+        "description": "Customer was charged for ORD-1005 but payment failed and requests a support ticket",
+        "created_at": "2026-09-28T21:23:20.841693"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-28T21:25:04.440966",
+    "result": {
+      "order_id": "ORD-1005",
+      "category": "Payment",
+      "priority": "High",
+      "sentiment": "Negative",
+      "description": "Customer was charged for order ORD-1005 but payment failed, requesting a support ticket.",
+      "ticket": {
+        "ticket_id": "TKT-20260928212504439",
+        "order_id": "ORD-1005",
+        "category": "Payment",
+        "priority": "High",
+        "description": "Customer was charged for order ORD-1005 but payment failed, requesting a support ticket.",
+        "created_at": "2026-09-28T21:25:04.439730"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-28T22:26:59.780345",
+    "result": {
+      "order_id": "ORD-1005",
+      "category": "Payment",
+      "priority": "High",
+      "sentiment": "Negative",
+      "description": "Customer complaint regarding order ORD-1005: I was charged for ORD-1005 but my payment failed. Please create a support ticket.",
+      "ticket": {
+        "ticket_id": "TKT-20260928222659773",
+        "order_id": "ORD-1005",
+        "category": "Payment",
+        "priority": "High",
+        "description": "Customer complaint regarding order ORD-1005: I was charged for ORD-1005 but my payment failed. Please create a support ticket.",
+        "created_at": "2026-09-28T22:26:59.773489"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-28T23:03:13.782356",
+    "result": {
+      "order_id": "ORD-1005",
+      "category": "Payment",
+      "priority": "High",
+      "sentiment": "Negative",
+      "description": "Customer complaint regarding order ORD-1005: I was charged for ORD-1005 but my payment failed. Please create a support ticket.",
+      "ticket": {
+        "ticket_id": "TKT-20260928230313780",
+        "order_id": "ORD-1005",
+        "category": "Payment",
+        "priority": "High",
+        "description": "Customer complaint regarding order ORD-1005: I was charged for ORD-1005 but my payment failed. Please create a support ticket.",
+        "created_at": "2026-09-28T23:03:13.780149"
+      }
+    }
+  }
+]
