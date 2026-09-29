@@ -1,36 +1,24 @@
 import json
-import re
+import os
 from pathlib import Path
+
 
 ORDERS_FILE = Path(__file__).resolve().parents[2] / "data" / "orders.json"
 
 
 def load_orders():
-    with open(ORDERS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+    # Test-only failure simulation
+    if os.getenv("SIMULATE_ORDER_TOOL_FAILURE", "false").lower() == "true":
+        raise TimeoutError("Simulated order tool timeout")
 
-
-def validate_order_id(order_id: str):
-    """
-    Validate the expected order ID format.
-    Example: ORD-1005
-    """
-    if not re.fullmatch(r"ORD-\d{4}", order_id):
-        return {
-            "valid": False,
-            "error": f'The order ID "{order_id}" does not match the expected format ORD-XXXX.'
-        }
-
-    return {"valid": True}
+    with open(ORDERS_FILE, "r", encoding="utf-8") as file:
+        return json.load(file)
 
 
 def get_order_status(order_id: str):
-    validation = validate_order_id(order_id)
+    orders = load_orders()
 
-    if not validation["valid"]:
-        return validation
-
-    for order in load_orders():
+    for order in orders:
         if order["order_id"] == order_id:
             return {
                 "order_id": order["order_id"],
@@ -45,12 +33,9 @@ def get_order_status(order_id: str):
 
 
 def get_order_details(order_id: str):
-    validation = validate_order_id(order_id)
+    orders = load_orders()
 
-    if not validation["valid"]:
-        return validation
-
-    for order in load_orders():
+    for order in orders:
         if order["order_id"] == order_id:
             return order
 

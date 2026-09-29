@@ -987,6 +987,8 @@ def deterministic_order_fallback(user_message):
 # TOOL-BASED AGENT
 # ============================================================
 
+MAX_TOOL_CALLS = 5
+
 def ask_agent_with_tools(user_message):
     """
     Main LLM agent.
