@@ -94,5 +94,13 @@
     "priority": "High",
     "description": "Customer complaint regarding order ORD-1005: I was charged for ORD-1005 but my payment failed. Please create a support ticket.",
     "created_at": "2026-09-28T23:03:13.780149"
+  },
+  {
+    "ticket_id": "TKT-20261002135239641",
+    "order_id": "ORD-1005",
+    "category": "Payment",
+    "priority": "High",
+    "description": "Payment failed for order ORD-1005.",
+    "created_at": "2026-10-02T13:52:39.641691"
   }
 ]
